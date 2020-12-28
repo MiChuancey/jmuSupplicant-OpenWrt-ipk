@@ -11,8 +11,8 @@ PKG_VERSION:=1.0
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/ShanQincheng/jmuSupplicant.git
-PKG_REV:=9ddc31252146b481dc6bca116625be13d7f5bc7f
+PKG_SOURCE_URL:=https://github.com/MiChuancey/jmuSupplicant.git
+PKG_REV:=d34eafa93fd42d5ad0a1a554284a7c35a117e228
 
 PKG_SOURCE_VERSION:=$(PKG_REV)
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
@@ -26,12 +26,12 @@ define Package/jmusupplicant
   SECTION:=net
   CATEGORY:=Network
   TITLE:=Ruijie Client Daemon
-  URL:=https://github.com/ShanQincheng/jmuSupplicant
+  URL:=https://github.com/MiChuancey/jmuSupplicant
   DEPENDS:=+libpcap
 endef
 
 define Package/jmusupplicant/description
-  Client for Ruijie Authentication in JMU campus.
+  Client for Ruijie Authentication in CSLG campus.
 endef
 
 define Package/jmusupplicant/install
