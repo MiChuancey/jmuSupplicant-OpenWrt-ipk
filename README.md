@@ -1,6 +1,6 @@
 # jmuSupplicant-OpenWrt-ipk
 
-这是 [jmuSupplicant](https://github.com/ShanQincheng/jmuSupplicant) 的 OpenWrt 版本，简化了编译过程
+这是 [jmuSupplicant](https://github.com/MiChuancey/jmuSupplicant) 的 OpenWrt 版本，简化了编译过程
 
 ## 编译
 
